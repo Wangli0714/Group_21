@@ -37,22 +37,23 @@ happiness <- read_csv("Group_21.csv")
 ```
 
 # Introduction{#sec:Intro}
-The World Happiness Report is a landmark survey of the state of global happiness. However, because of the covid-19 prevalence, people’s lives get reshaped largely. More seriously, As the pandemic struck, there was a large and immediate decline in mental health in many countries worldwide. Therefore, it seems necessary to give more importance to happiness and well-being thereby better achieving and measuring social and economic development. Our study mainly serves two purposes. One is about finding and evaluating the influential factors of happiness. The other is about tracing the size and distribution of happiness impacts. We adopts the multiple regression analysis, using the data from the Gallup World Poll. There are six variables to measure happiness scores. After processing the data, we finally get three appropriate influential factors.
+The World Happiness Report is a landmark survey of the state of global happiness. However, because of the covid-19 prevalence, people’s lives get reshaped largely. More seriously, “As the pandemic struck, there was a large and immediate decline in mental health in many countries worldwide” (Helliwell, Layard, Sachs, De Neve, Aknin, & Wang, 2021, p.10). Therefore, it seems necessary to give more importance to happiness and well-being thereby better achieving and measuring social and economic development. Our study mainly serves two purposes. One is about finding and evaluating the influential factors of happiness. The other is about tracing the size and distribution of happiness impacts. We adopts the multiple regression analysis, using the data from the Gallup World Poll. There are six variables to measure happiness scores of 149 countries or territories. After processing the data, we finally get three appropriate influential factors.
 
 At first, we choose seven variables with one outcome variable, Happy score and six explanatory variables, they are Logged GDP per capita, Social support, Healthy life expectancy, Freedom to make life choices, Generosity and Perceptions_of_corruption. The following is interpretations of each variable.
 
-Happy score: respondents were asked to rate their possible lives from one to ten, with 1 being the worst and 10 being the best.
-Logged GDP per capita: it means logged GDP index from 149 countries.
+Happy score (score): respondents were asked to rate their possible lives from one to ten, with 1 being the worst and 10 being the best.
 
-Social support: it means if the participants could find someone’s help when they are in trouble.
+Logged GDP per capita (LoggedGDP): it means logged GDP index from 149 countries.
 
-Healthy life expectancy: it means the expected life expectancy.
+Social support (Social): it means if the participants could find someone’s help when they are in trouble.
 
-Freedom to make life choices: it means if the participants are satisfied with their freedom to choose what they do in life.
+Healthy life expectancy (expectancy): it means the expected life expectancy.
+
+Freedom to make life choices (Freedom): it means if the participants are satisfied with their freedom to choose what they do in life.
 
 Generosity: it means if the participants are generous after asking if they have donated money to charity organizations.
 
-Perceptions of corruption: it means if the participants are conscious of the corruption within the government and business.
+Perceptions of corruption (corruption): it means if the participants are conscious of the corruption within the government and business.
 
 # Exploratory Data Analysis {#sec:EDA}
 We visualize the values as boxplots:
